@@ -34,7 +34,7 @@ public class Numbers {
         numbers.generateNumbers(filePath, 10);
         Integer[] array = numbers.readNumbers(filePath);
 
-        IGenericSort<Integer> sorter = new QuickSort<>();
+        IGenericSort<Integer> sorter = new quickSort<>();
         long startTime = System.nanoTime();
         numbers.sortNumbers(sorter, array);
         long endTime = System.nanoTime();

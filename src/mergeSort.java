@@ -1,4 +1,4 @@
-public class MergeSort<T extends Comparable<T>> implements IGenericSort<T> {
+public class mergeSort<T extends Comparable<T>> implements IGenericSort<T> {
     @Override
     public void sort(T[] array) {
         mergeSort(array, 0, array.length - 1);

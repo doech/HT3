@@ -1,4 +1,4 @@
-public class QuickSort<T extends Comparable<T>> implements IGenericSort<T> {
+public class quickSort<T extends Comparable<T>> implements IGenericSort<T> {
     @Override
     public void sort(T[] array) {
         quickSort(array, 0, array.length - 1);

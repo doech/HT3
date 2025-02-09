@@ -1,4 +1,4 @@
-public class RadixSort implements IGenericSort<Integer> {
+public class radixSort implements IGenericSort<Integer> {
     @Override
     public void sort(Integer[] array) {
         int max = getMax(array);

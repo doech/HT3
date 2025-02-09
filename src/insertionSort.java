@@ -1,4 +1,4 @@
-public class InsertionSort<T extends Comparable<T>> implements IGenericSort<T> {
+public class insertionSort<T extends Comparable<T>> implements IGenericSort<T> {
     @Override
     public void sort(T[] array) {
         for (int i = 1; i < array.length; i++) {

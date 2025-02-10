@@ -1,3 +1,8 @@
+//**
+/** Emily Góngora y Ale Sierra
+ * Clase que implementa el algoritmo de ordenación Selection Sort, el cual fue elegido por el grupo. 
+ * @param <T> tipo de dato genérico que extiende de Comparable.
+*/
 public class selectionSort<T extends Comparable<T>> implements IGenericSort<T> {
     @Override
     public void sort(T[] array) {

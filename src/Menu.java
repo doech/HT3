@@ -1,6 +1,14 @@
+//**
+/** Emily Góngora y Ale Sierra
+*/
 import java.io.*;
 import java.util.*;
 
+/**
+ * La clase menu es la encargada de mostrar el menú de opciones al usuario a traves de una interfaz de consola.
+ * El usuario puede seleccionar el algoritmo de ordenación que desea utilizar para ordenar un conjunto de números
+ * se tomara el tiempo de ejecución del algoritmo y se mostrará el resultado de la ordenación.
+ */
 public class Menu {
     private static final Scanner scanner = new Scanner(System.in);
 

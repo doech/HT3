@@ -1,3 +1,9 @@
+//**
+/** Emily Góngora y Ale Sierra
+ * Clase que implementa el algoritmo de ordenación Quick Sort. 
+ * @param <T> tipo de dato genérico que extiende de Comparable.
+*/
+
 public class quickSort<T extends Comparable<T>> implements IGenericSort<T> {
     @Override
     public void sort(T[] array) {

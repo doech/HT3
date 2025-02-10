@@ -1,3 +1,8 @@
+//**
+/** Emily Góngora y Ale Sierra
+ * Clase que implementa el algoritmo de ordenación Radix Sort. 
+ * @param <T> tipo de dato genérico que extiende de Comparable.
+*/
 public class radixSort implements IGenericSort<Integer> {
     @Override
     public void sort(Integer[] array) {

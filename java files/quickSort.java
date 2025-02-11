@@ -7,14 +7,14 @@
 public class quickSort<T extends Comparable<T>> implements IGenericSort<T> {
     @Override
     public void sort(T[] array) {
-        quickSort(array, 0, array.length - 1);
+        QuickSort(array, 0, array.length - 1);
     }
 
-    private void quickSort(T[] array, int low, int high) {
+    private void QuickSort(T[] array, int low, int high) {
         if (low < high) {
             int pivotIndex = partition(array, low, high);
-            quickSort(array, low, pivotIndex - 1);
-            quickSort(array, pivotIndex + 1, high);
+            QuickSort(array, low, pivotIndex - 1);
+            QuickSort(array, pivotIndex + 1, high);
         }
     }
 

@@ -2,7 +2,7 @@
 /** Emily Góngora y Ale Sierra
  * test para la clase selectionSort que prueba el algoritmo con diferentes casasos como un arreglo vacío, un arreglo con un solo elemento, un arreglo ya ordenado, un arreglo en orden inverso y un arreglo desordenado.
  */
-package test;
+
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import org.junit.jupiter.api.Test;
 
